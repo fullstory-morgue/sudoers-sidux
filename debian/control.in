@@ -1,0 +1,13 @@
+Source: sudoers-kanotix
+Section: admin
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends-Indep: @cdbs@
+Standards-Version: 3.6.2
+
+Package: sudoers-kanotix
+Architecture: all
+Provides: sudoers-knoppix
+Replaces: sudoers-knoppix
+Description: /etc/sudoers for the kanotix user
+ sudoers template for life uses.
