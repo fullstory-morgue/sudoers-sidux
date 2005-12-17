@@ -1,3 +1,9 @@
+sudoers-kanotix (0.5.5) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 03:34:27 +0100
+
 sudoers-kanotix (0.5.4) unstable; urgency=low
 
   * remove cdbs auto-update feature.
