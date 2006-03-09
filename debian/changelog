@@ -1,3 +1,9 @@
+sudoers-kanotix (0.5.6) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 10 Mar 2006 00:54:06 +0100
+
 sudoers-kanotix (0.5.5) unstable; urgency=low
 
   * knoppix --> kanotix transition, thanks to x-un-i.
