@@ -1,5 +1,9 @@
 #! /bin/sh
 
+FLL_LIVE_USER="knoppix"
+test -r /etc/default/distro && . /etc/default/distro
+
+
 SUDOERS='# sudoers file.
 #
 # This file MUST be edited with the "visudo" command as root.
@@ -16,10 +20,10 @@ SUDOERS='# sudoers file.
 # User privilege specification
 root	ALL=(ALL) ALL
 
-# KNOPPIX WARNING: This allows the unprivileged knoppix user to start commands as root
-# KNOPPIX WARNING: This is totally insecure and (almost) makes knoppix a second root account.
-# KNOPPIX WARNING: Never allow external access to the knoppix user!!!
-knoppix	ALL=NOPASSWD: ALL'
+# WARNING: This allows the unprivileged $FLL_LIVE_USER user to start commands as root
+# WARNING: This is totally insecure and (almost) makes $FLL_LIVE_USER a second root account.
+# WARNING: Never allow external access to the $FLL_LIVE_USER user!!!
+$FLL_LIVE_USER	ALL=NOPASSWD: ALL'
 
 case "$1" in
     configure)
@@ -27,8 +31,8 @@ case "$1" in
     echo "Reconfiguring /etc/sudoers"
     TEMPFILE=$(mktemp)
     rm -f "$TEMPFILE"
-    ( grep -i -v KNOPPIX /etc/sudoers ; \
-    grep -i KNOPPIX <<EOF
+    ( grep -i -v "$FLL_LIVE_USER" /etc/sudoers ; \
+    grep -i "$FLL_LIVE_USER" <<EOF
 $SUDOERS
 EOF
     ) > "$TEMPFILE"

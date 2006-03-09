@@ -7,6 +7,7 @@ Standards-Version: 3.6.2
 
 Package: sudoers-kanotix
 Architecture: all
+Pre-Depends: distro-defaults
 Depends: sudo
 Description: /etc/sudoers for the kanotix user
  sudoers template for life uses.
