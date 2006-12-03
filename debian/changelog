@@ -1,11 +1,14 @@
 sudoers-sidux (0.5.6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Joaquim Boura ]
   * fix lintian errors.
-
   * Initial version for sidux
 
- -- Joaquim Boura <x-un-i@sidux.com>  Sat,  2 Dec 2006 17:33:13 +0100
+  [ Stefan Lippers-Hollmann ]
+  * fix typo.
+  * tweak debian/control.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 02:35:24 +0100
 
 sudoers-kanotix (0.5.5) unstable; urgency=low
 
