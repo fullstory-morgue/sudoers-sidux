@@ -1,8 +1,9 @@
-sudoers-sidux (0.5.7) UNRELEASED; urgency=low
+sudoers-sidux (0.5.7) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 02:37:44 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  2 Jan 2007 15:59:39 +0100
 
 sudoers-sidux (0.5.6) unstable; urgency=low
 

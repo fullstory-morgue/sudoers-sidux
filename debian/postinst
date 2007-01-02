@@ -1,6 +1,6 @@
 #! /bin/sh
 
-FLL_LIVE_USER="knoppix"
+FLL_LIVE_USER="sidux"
 test -r /etc/default/distro && . /etc/default/distro
 
 
